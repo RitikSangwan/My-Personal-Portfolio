@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Noto+Sans:wght@200&family=Open+Sans:wght@300&family=Source+Code+Pro:wght@200&family=Ubuntu:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+}
+.sidebar{
+    width: 434px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    background-color:rgb(200, 200, 200);
+    height: 100vh;
+}
+.sidebar nav{
+    padding:45px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 25px 0px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    margin-left: 50px;
+    width: 90vw;
+    /* background-color: yellow; */
+}
+.infoContainer{
+    display: flex;
+    /* background-color: blue; */
+    height:58vh;
+    width: 80vw;
+    justify-content: space-around;
+    margin: 140px auto;
+
+}
+.divinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.divPic img{
+    height: 58vh;
+    border-radius: 15rem;
+}
+.hello{
+  font-size: 65px;
+}
+.name{
+  font-weight: bold;
+  font-size: 50px;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Source Code Pro', monospace;
+  font-family: 'Ubuntu', sans-serif;
+}
+.about{
+font-size: 40px;
+
+}
+.moreabout{
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+button{
+padding:15px 10px;
+border-radius: 28px;
+color: white;
+background-color: dodgerblue;
+font-size: 20px;
+margin: 0px 3px;
+cursor: pointer;
+}
+button:hover{
+    background-color: white;
+    color: dodgerblue;  
+}
+.contactform{
+    padding: 0px 34px;
+    padding-top: 144px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Ubuntu', sans-serif;
+}
+.contactform h1{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 12px 0px;
+}
+.contactform form div {
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    width:26vw;
+    padding: 3px;
+    border-radius: 5px;
+    margin:8px 0 0 0;
+    margin-bottom: 9px;
+}
+#emailHelp{
+    font-size: 11px;
+    color: midnightblue;
+    margin: 0px 5px;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    margin: 3px 0;
+    width: 24px;
+    
+}
+.btn{
+    padding:8px 10px;
+    border-radius: 20px;
+    color: white;
+    background-color: dodgerblue;
+    font-size: 13px;
+    margin: 0px 3px;
+    cursor: pointer;
+    }
+    button:hover{
+        background-color: white;
+        color: dodgerblue;  
+    }
+    h2{
+        font-family: 'Inter', sans-serif;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: bolder;
+        font-size: 2rem;
+        margin:10px 15px;
+    }
+    p{
+        font-family: 'Inter', sans-serif;
+        font-family: 'Noto Sans', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Source Code Pro', monospace;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 100px;
+    }
+    .aboutme h2 p{
+        margin: 12px;
+    }
+    .skill{
+        padding: 10px;
+    }
+    .myskill{
+        width: 300px;
+        height: 6px;
+        background-color: red;
+        border: 2px solid black;
+        margin-top: 4px;
+    }
+    .skillset{
+        display: flex;
+    }
+    .hundred{
+        width: 300px;
+    }
+    .fifty{
+        width: 150px;
+    }
+    .t8{
+        width:240px;
+    }
+    .t7{
+        width:210px;
+    }
+    .t4{
+        width:120px
+    }
+    .Pic{
+        width: auto;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    #imgcv{
+    width:500px;
+    }
+    #Links{
+        font-size: 3rem;
+        text-align: center;
+        margin:4rem 4rem;
+    }
+    .sub{
+        font-size: 2rem;
+        margin-top: 10px;
+    }
+   
